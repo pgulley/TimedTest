@@ -1,0 +1,6 @@
+A Doctest function which times-out and returns an error in case of code loops.
+
+TimedTest(Timeout, File) where Timeout is the time the main process will wait before terminating the doctest, and
+File is a string - the filename of the file being tested.
+
+
